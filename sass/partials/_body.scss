@@ -1,0 +1,29 @@
+.main-content {
+    text-align: center;
+    color: #141E30;
+    padding: 10em;
+    .main-content__heading {
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+    .main-content__subheading {
+        font-size: 2rem;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .main-link {
+        display: inline-block;
+        padding: 1em 2em;
+        background: #36b3ff;
+        border-radius: 3px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        &:hover{
+            border-radius: 3px;
+            background: #141E30;
+            color: white;
+        }
+    }
+}

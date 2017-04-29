@@ -1,0 +1,121 @@
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+main {
+  background: linear-gradient(rgba(200, 200, 200, 0.6), rgba(200, 200, 200, 0.6)), url("../images/Sony HVR-Z7P video camera.jpg") no-repeat center;
+  background-size: cover; }
+
+footer {
+  background: #141E30; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between; }
+  .navigation .navigation__brand {
+    padding: 0.5em; }
+    .navigation .navigation__brand .navigation__brand__link {
+      text-decoration: none;
+      color: #141E30; }
+  .navigation .navigation__list {
+    margin-top: 1.5em;
+    list-style: none; }
+  .navigation .navigation__item {
+    display: inline-block;
+    margin-right: 1em; }
+    .navigation .navigation__item:last-child {
+      margin-right: 0; }
+  .navigation .navigation__link {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #141E30;
+    text-decoration: none;
+    padding: 0.5em 1em; }
+    .navigation .navigation__link:hover {
+      border-radius: 10px;
+      background: #141E30;
+      color: white; }
+
+.main-content {
+  text-align: center;
+  color: #141E30;
+  padding: 10em; }
+  .main-content .main-content__heading {
+    font-size: 4rem;
+    text-transform: uppercase; }
+  .main-content .main-content__subheading {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic; }
+  .main-content .main-link {
+    display: inline-block;
+    padding: 1em 2em;
+    background: #36b3ff;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase; }
+    .main-content .main-link:hover {
+      border-radius: 3px;
+      background: #141E30;
+      color: white; }
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between; }
+  .footer-flex .foot-section {
+    padding: 1.5em;
+    width: 30%;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center; }
+    .footer-flex .foot-section:nth-child(2) {
+      text-align: center; }
+  .footer-flex .foot-section__heading {
+    font-size: 1.8rem;
+    text-transform: uppercase; }
+  .footer-flex .foot-social i {
+    font-size: 2rem;
+    margin-right: 0.5em; }
+    .footer-flex .foot-social i:hover {
+      cursor: pointer; }
+  .footer-flex .foot-nav {
+    text-align: center; }
+  .footer-flex .foot-section__navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .footer-flex .foot-section__navigation-item {
+    text-transform: uppercase;
+    margin: 0.2em 0; }
+  .footer-flex .foot-section__navigation-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.3em; }
+    .footer-flex .foot-section__navigation-link:hover {
+      background: white;
+      color: #141E30; }
+  .footer-flex .flex-foot-nav {
+    display: flex;
+    justify-content: space-around; }
+
+.subfooter {
+  margin: 0;
+  background: #889999;
+  padding: 0.2em;
+  text-align: center; }
+  .subfooter .subfooter__text {
+    padding: 0;
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

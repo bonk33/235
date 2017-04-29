@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    .navigation__brand {
+        padding: 0.5em;
+        .navigation__brand__link {
+            text-decoration: none;
+            color: #141E30;
+        }
+    }
+    .navigation__list {
+        margin-top: 1.5em;
+        list-style: none;
+    }
+    .navigation__item {
+        display: inline-block;
+        margin-right: 1em;
+
+        &:last-child {
+        margin-right: 0;
+        }
+    }
+    .navigation__link {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #141E30;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        &:hover{
+            border-radius: 10px;
+            background: #141E30;
+            color: white;
+        }
+    }
+}
